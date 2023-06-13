@@ -1,0 +1,48 @@
+   0 vflogin uliana
+   1 1s -1
+   2 ls -l
+   3 cd
+   4 mkdir user1
+   5 ls -la
+   6 user1
+   7 ls
+   8 user1
+   9 cd user1
+  10 mkdir task1
+  11 ls
+  12 cd task1/
+  13 touch file1.txt
+  14 ls
+  15 cd
+  16 tree
+  17 cd
+  18 pwd
+  19 c /opt/
+  20 cd /opt/
+  21 pwfd
+  22 pwd
+  23 tree /root
+  24 tree/root
+  25 tree /root
+  26 mkdir /root/user2/task2
+  27 mkdir -p /root/user2/task2
+  28 touch /root/user2/task2/file.txt
+  29 tree /root
+  30 mkdir -p /root/user3/task3
+  31 mkdir -p/root/user3/task3 && touch /root/user3/task3/file3.txt
+  32 tree /roo
+  33 tree /root
+  34 -p /root/user3/task3 && touch /root/user3/task3/file3.txt
+  35 mkdir -p /root/user3/task3 && touch /root/user3/task3/file3.txt
+  36 tree /root
+  37 cp /root/user1/task1/file1.txt /tmp/newfile1.txt
+  38 cp /root/user2 /tmp
+  39 cp -r /root/user2 /tmp
+  40 mv /root/user3 /tmp
+  41 tree /tmp
+  42 mv /tmp/newfile1.txt /tmp/file1.txt
+  43 rm --help
+  44 rm -f /tmp/user3
+  45 rm -rf /tmp/user3
+  46 history
+  47 history > history_13.txt
