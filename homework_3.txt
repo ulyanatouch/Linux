@@ -1,0 +1,30 @@
+   0 mkdir -p /home/user/start
+   1 ls /home/user
+   2 echo "Start" > /home/user/start/1.txt
+   3 ls /home/user/start/1.txt
+   4 ls /home/user/start
+   5 echo "$(date)" >> /home/user/start/1.txt
+   6 mkdir -p /opt/task
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 ls -a / | tail -n 4 >> /opt/task/start.txt
+   9 history > history_22_06.txt
+  10 ecport_file history_22_06.txt
+  11 export_file history_22_06.txt
+  12 ls -al
+  13 clear
+  14 ls /home/user/start
+  15 cat /home/user/start/1.txt
+  16 touch /home/user/start/date.txt
+  17 $date > /home/user/start/date.txt
+  18 df -h >> date.txt
+  19 history | tail -n 5 >> date.txt
+  20 cat /home/user/start/date.txt
+  21 cat date.txt
+  22 grep "vendor" /proc/cpuinfo | sort -u >> date.txt
+  23 cat date.txt
+  24 pwd
+  25 nano date.txt
+  26 cat date.txt
+  27 history > homework_3
+  28 export_file homework_3
+  29 history > homework_3.txt
